@@ -24,7 +24,7 @@ async function getPokemon(pokemon) {
     const json = await res.json();
     console.log(json);
     if (json.detail === 'Not found.') {
-        main.innerHTML = `<h2>This pokemon is yet to be known</h2>`;
+        main.innerHTML = `<h2 style="color:papayawhip">This pokemon is yet to be known</h2>`;
         stats.innerHTML = `<h2></h2>`;
         types.innerHTML = `<h2></h2>`;
     }
