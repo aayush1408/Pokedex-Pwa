@@ -3,7 +3,7 @@
   "short_name": "Pokedex",
   "theme_color": "#2372b1",
   "background_color": "#0c436f",
-  "display": "browser",
+  "display": "fullscreen",
   "Scope": "/",
   "start_url": ".",
   "icons": [
