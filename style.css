@@ -4,3 +4,9 @@ button{
 ul{
   border: none;
 }
+body{
+  background-color: dimgray;
+}
+input{
+  color:white;
+}
